@@ -1,7 +1,7 @@
+com\example\musicify2\Musicify2Application.class
+com\example\musicify2\MainService.class
 com\example\musicify2\RestMainController.class
 com\example\musicify2\AppController.class
 com\example\musicify2\MyCommandLineRunner.class
 com\example\musicify2\MainModel.class
 com\example\musicify2\MainRepository.class
-com\example\musicify2\Musicify2Application.class
-com\example\musicify2\MainService.class
