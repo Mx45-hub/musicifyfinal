@@ -13,6 +13,9 @@ public class CorsConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.addAllowedOrigin("http://127.0.0.1:5500");
+        configuration.addAllowedOrigin("http://127.0.0.1:5500/index.html");
+        //http://127.0.0.1:5500
+        //http://127.0.0.1:5500/index.html
         // Add more allowed origins as needed
         configuration.addAllowedMethod("GET");
         configuration.addAllowedMethod("POST");
