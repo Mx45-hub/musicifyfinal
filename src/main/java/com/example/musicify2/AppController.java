@@ -3,7 +3,6 @@ package com.example.musicify2;
 
 
 import java.io.IOException;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -20,7 +19,6 @@ public class AppController {
     @GetMapping("/upload")
     public String upload(){
         return "upload";
-        
     }
 
     private final MainService mainService;

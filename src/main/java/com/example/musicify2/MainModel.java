@@ -12,8 +12,6 @@ import jakarta.persistence.Table;
 @Table(name = "music")
 public class MainModel {
 
-
-    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
