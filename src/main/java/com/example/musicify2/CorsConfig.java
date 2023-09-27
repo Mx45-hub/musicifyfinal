@@ -15,6 +15,7 @@ public class CorsConfig {
         configuration.addAllowedOrigin("http://127.0.0.1:5500");
         configuration.addAllowedOrigin("http://localhost:5500");
         configuration.addAllowedOrigin("https://musicifyfront.onrender.com");
+        configuration.addAllowedOrigin("https://musicapp-dquz.onrender.com");
         configuration.addAllowedMethod("GET");
         configuration.addAllowedMethod("POST");
         configuration.addAllowedMethod("PUT");
